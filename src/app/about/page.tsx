@@ -1,3 +1,6 @@
+import Image from 'next/image';
+
+
 export default function About() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
@@ -7,11 +10,11 @@ export default function About() {
                 {/* Teacher and Student Images */}
                 <div className="flex justify-around mb-8">
                     <div className="text-center">
-                        <img src="images/teacher.jfif" alt="Teacher" className="w-32 h-32 object-cover rounded-full mx-auto mb-2" />
+                        <Image src="images/teacher.jfif" alt="Teacher" className="w-32 h-32 object-cover rounded-full mx-auto mb-2" />
                         <p className="text-lg text-gray-700">Teacher</p>
                     </div>
                     <div className="text-center">
-                        <img src="/images/student.jfif" alt="Student" className="w-32 h-32 object-cover rounded-full mx-auto mb-2" />
+                        <Image src="/images/student.jfif" alt="Student" className="w-32 h-32 object-cover rounded-full mx-auto mb-2" />
                         <p className="text-lg text-gray-700">Student</p>
                     </div>
                 </div>
