@@ -24,7 +24,7 @@ export default function Contact() {
                 {/* Optional: Additional Contact Information */}
                 <div className="text-center">
                     <h2 className="text-2xl font-bold text-blue-900 mb-4">Get in Touch</h2>
-                    {/* <p className="text-lg text-gray-700">Email: mehdinathani@example.com</p> */}
+                    {/* <p className="text  -lg text-gray-700">Email: mehdinathani@example.com</p> */}
                 </div>
             </div>
         </div>
