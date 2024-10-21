@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
         <nav className="bg-blue-50 p-4 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
-                <div className="text-2xl font-bold text-blue-900">Mehdi s Website</div>
+                {/* <div className="text-2xl font-bold text-blue-900">Mehdi s Website</div> */}
                 <div className="space-x-6">
                     <Link href="/" className="text-blue-900 font-bold hover:text-blue-700">Home</Link>
                     <Link href="/about" className="text-blue-900  font-bold hover:text-blue-700">About Us</Link>
