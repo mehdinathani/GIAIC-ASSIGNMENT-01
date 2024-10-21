@@ -1,5 +1,5 @@
 export default function Jobs() {
-    throw new Error('job page not found.');
+    // throw new Error('job page not found.');
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
             <div className="max-w-3xl p-8 bg-white rounded-lg shadow-md">
