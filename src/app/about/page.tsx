@@ -42,24 +42,24 @@ export default function About() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {/* Project 1 */}
                         <a href="https://mehdinathani.github.io/projects/deathofdevil/" target="_blank" className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition">
-                            <img src="/images/deathofdevil.png" alt="Death of Devil" className="w-full h-32 object-cover mb-2 rounded" />
+                            <Image src="/images/deathofdevil.png" alt="Death of Devil" className="w-full h-32 object-cover mb-2 rounded" />
                             <h3 className="text-lg font-bold text-blue-900">Green Groove Challenge</h3>
                         </a>
 
                         {/* Project 2 */}
                         <a href="https://mehdinathani.github.io/projects/tasbeehcounter/" target="_blank" className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition">
-                            <img src="/images/tasbeeh_counter.PNG" alt="Tasbih Counter" className="w-full h-32 object-cover mb-2 rounded" />
+                            <Image src="/images/tasbeeh_counter.PNG" alt="Tasbih Counter" className="w-full h-32 object-cover mb-2 rounded" />
                             <h3 className="text-lg font-bold text-blue-900">Tasbih Counter</h3>
                         </a>
 
                         {/* Project 3 */}
                         <a href="https://mehdinathani.github.io/projects/virtuchat/" target="_blank" className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition">
-                            <img src="/images/virtuchat.png" alt="Virtue Chat" className="w-full h-32 object-cover mb-2 rounded" />
+                            <Image src="/images/virtuchat.png" alt="Virtue Chat" className="w-full h-32 object-cover mb-2 rounded" />
                             <h3 className="text-lg font-bold text-blue-900">Virtue Chat</h3>
                         </a>
                         {/* Project 3 */}
                         <a href="https://mehdinathani.github.io/projects/bankwise/" target="_blank" className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition">
-                            <img src="/images/bankwiselogo.png" alt="Bank Wise" className="w-full h-32 object-cover mb-2 rounded" />
+                            <Image src="/images/bankwiselogo.png" alt="Bank Wise" className="w-full h-32 object-cover mb-2 rounded" />
                             <h3 className="text-lg font-bold text-blue-900">Virtue Chat</h3>
                         </a>
                     </div>
