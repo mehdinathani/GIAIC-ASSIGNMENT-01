@@ -7,6 +7,22 @@
   --foreground: #171717;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  /* This allows the main content area to grow and take available space */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
