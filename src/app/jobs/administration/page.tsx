@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-export default function AdministrativeJobs() {
+
+export default async function AdministrativeJobs() {
+    await new Promise((resolve) => setTimeout(resolve, 5000));
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
             <div className="max-w-3xl p-8 bg-white rounded-lg shadow-md">
